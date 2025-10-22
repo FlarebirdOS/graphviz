@@ -1,6 +1,6 @@
 pkgname=graphviz
-pkgver=14.0.0
-pkgrel=1
+pkgver=14.0.2
+pkgrel=2
 pkgdesc="Graph visualization software"
 arch=('x86_64')
 url="https://www.graphviz.org"
@@ -25,7 +25,7 @@ makedepends=(
     'tk'
 )
 source=(https://gitlab.com/graphviz/graphviz/-/archive/${pkgver}/${pkgname}-${pkgver}.tar.bz2)
-sha256sums=(78d06cf3db0cc2298199d9ca0a9dd4be7f623f90f70ca72f60f1880d848a4f3d)
+sha256sums=(d4d8baa81471166a3d81670cc38870b37f1a4f6f0c473ad7a2f0a74c9914a8e0)
 
 prepare() {
     cd ${pkgname}-${pkgver}
